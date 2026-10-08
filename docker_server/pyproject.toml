@@ -1,0 +1,12 @@
+[project]
+name = "docker-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docker>=7.1.0",
+    "fastmcp>=2.12.4",
+    "starlette>=0.48.0",
+    "uvicorn>=0.37.0",
+]
